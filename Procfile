@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run dashboard.py
+web: sh setup.sh && apt-get install libportaudio2 && streamlit run dashboard.py
